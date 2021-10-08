@@ -34,7 +34,7 @@ I summarized all the loop/iterators related APIs here:
 
 ### ES5
 
-- [`for...break`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
+- [`classic for loop`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
 - [`for...in`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
 - [`Array.prototype.forEach()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)  
    为 Array 对象引入了 Array.forEach 方法以代替 for 循环，Array.forEach 方法的特点是自带闭包，以解决因为缺乏块级作用域导致需要使用取巧的方法来解决 var 的作用域问题。

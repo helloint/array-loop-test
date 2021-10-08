@@ -290,7 +290,7 @@ if (false) {
 
 /*
 	Async calls in sequence
-	Best Choice: for...of
+	Best Choice: for...of or classic for loop
 
 	Async calls in parallel
 	Best Choice: .map()
@@ -311,6 +311,7 @@ if (false) {
 }
 
 async function asyncForIn(testArr) {
+	// eslint-disable-next-line no-restricted-syntax
 	for (let x of testArr) {
 		console.log(`forIn's ${x} starts at ${currentDateString()}`);
 		await asyncPrint(x);
