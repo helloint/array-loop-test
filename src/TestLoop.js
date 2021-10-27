@@ -249,7 +249,7 @@ if (false) {
 }
 
 /*
-	Process all element, until condition match
+	Use Case: Process all element, until condition match
 	Best Choice: Array.prototype.some()
  */
 const maxCount = 10;
@@ -275,7 +275,7 @@ if (false) {
 }
 
 /*
-	Iterate over an array to count a property of each item
+	Use Case: Iterate over an array to count a property of each item
 	Best Choice: Array.prototype.reduce()
  */
 if (false) {
@@ -289,10 +289,10 @@ if (false) {
 }
 
 /*
-	Async calls in sequence
+	Use Case: Async calls in sequence
 	Best Choice: for...of or classic for loop
 
-	Async calls in parallel
+	Use Case: Async calls in parallel
 	Best Choice: .map()
 
 	Ref: https://stackoverflow.com/questions/37576685/using-async-await-with-a-foreach-loop
